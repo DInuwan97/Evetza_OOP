@@ -1,0 +1,749 @@
+
+<!DOCTYPE html>
+<!-- html -->
+<html>
+<!-- head -->
+<head>
+<title>Match a Matrimonial Category Bootstrap Responsive Web Template | index :: w3layouts</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- bootstrap-CSS -->
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /><!-- Fontawesome-CSS -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
+<!-- Custom Theme files -->
+<link href="css/menu.css" rel="stylesheet" type="text/css" media="all" /> <!-- menu style --> 
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<link rel="stylesheet" type="text/css" href="css/admin-easy-responsive-tabs.css " />
+<!--meta data-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Match Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--//meta data-->
+<!-- online fonts -->
+<link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<!-- /online fonts -->
+<!-- nav smooth scroll -->
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>	
+<!-- //nav smooth scroll -->			
+<!-- Calendar -->
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<script src="js/jquery-ui.js"></script>
+		<script>
+		  $(function() {
+			$( "#datepicker" ).datepicker();
+		 });
+		</script>
+<!-- //Calendar -->			
+<link rel="stylesheet" href="css/intlTelInput.css">
+</head>
+<!-- //head -->
+<!-- body -->
+<body>
+
+<!-- header -->
+<header>
+	<!--  Navigation Start -->
+ <div class="navbar navbar-inverse-blue navbar">
+    <!--<div class="navbar navbar-inverse-blue navbar-fixed-top">-->
+      <div class="navbar-inner">
+        <div class="container">
+          <div class="menu">
+					<div class="cd-dropdown-wrapper">
+						<a class="cd-dropdown-trigger"><h2>GUIDE HUB</h2></a>
+					</div> <!-- .cd-dropdown-wrapper -->	 
+				</div>
+           <div class="pull-right">
+          	<nav class="navbar nav_bottom" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+		  <div class="navbar-header nav_2">
+		      <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">Menu
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		   </div> 
+		   <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+		        <ul class="nav navbar-nav nav_1">
+		            <li class="active"><a href="index.php">Home</a></li>
+		            <li><a href="about.php">About</a></li>
+		            <li><a href="search.php">Search</a></li>
+		            <li><a href="app.php" target="_blank">Mobile</a></li>
+					  <!--<li class="dropdown">
+		              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Search<span class="caret"></span></a>
+		              <ul class="dropdown-menu" role="menu">
+		                <li><a href="search.html">Regular Search</a></li>
+		                <li><a href="profile.html">Recently Viewed Profiles</a></li>
+		                <li><a href="search-id.html">Search By Profile ID</a></li>
+		                <li><a href="faq.html">Faq</a></li>
+		                <li><a href="shortcodes.html">Shortcodes</a></li>
+		              </ul>
+		            </li>-->
+		            <li class="dropdown">
+		              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick Search<span class="caret"></span></a>
+		              <ul class="dropdown-menu" role="menu">
+		                <div class="banner-bottom-login">
+		<div class="w3agile_banner_btom_login">
+			<form action="#" method="post">
+				<div class="w3agile__text w3agile_banner_btom_login_left">
+					<h4>I'm looking for a</h4>
+					<select id="country" onchange="change_country(this.value)" class="frm-field required">
+						<option value="null">Bride</option>
+						<option value="null">Groom</option>   
+					</select>
+				</div>
+				<div class="w3agile__text w3agile_banner_btom_login_left1">
+					<h4>Aged</h4>
+					<select id="country1" onchange="change_country(this.value)" class="frm-field required">
+						<option value="null">20</option>
+						<option value="null">21</option>   
+						<option value="null">22</option>   
+						<option value="null">23</option>   
+						<option value="null">24</option>   
+						<option value="null">25</option>  
+						<option value="null">- - -</option>   					
+					</select>
+					<span>To </span>
+					<select id="country2" onchange="change_country(this.value)" class="frm-field required">
+						<option value="null">30</option>
+						<option value="null">31</option>   
+						<option value="null">32</option>   
+						<option value="null">33</option>   
+						<option value="null">34</option>   
+						<option value="null">35</option>  
+						<option value="null">- - -</option>   					
+					</select>
+				</div>
+				<div class="w3agile__text w3agile_banner_btom_login_left2">
+					<h4>Religion</h4>
+					<select id="country3" onchange="change_country(this.value)" class="frm-field required">
+						<option value="null">Hindu</option>  
+						<option value="null">Muslim</option>   
+						<option value="null">Christian</option>   
+						<option value="null">Sikh</option>   
+						<option value="null">Jain</option>   
+						<option value="null">Buddhist</option>
+						<option value="null">No Religious Belief</option>   					
+					</select>
+				</div>
+				<div class="w3agile_banner_btom_login_left3">
+					<input type="submit" value="Search" />
+				</div>
+				<div class="clearfix"> </div>
+			</form>
+		</div>
+	</div>
+		              </ul>
+		            </li>
+		            <li class="last"><a href="contact.html">Contacts</a></li>
+		        </ul>
+		     </div><!-- /.navbar-collapse -->
+		    </nav>
+		   </div> <!-- end pull-right -->
+          <div class="clearfix"> </div>
+        </div> <!-- end container -->
+      </div> <!-- end navbar-inner -->
+    </div> <!-- end navbar-inverse-blue -->
+<!-- ============================  Navigation End ============================ -->
+</header>
+
+	<!-- inner banner -->	
+	<div class="w3layouts-inner-banner">
+	<div class="container">
+		<div class="logo">
+			<h1><a class="cd-logo link link--takiri" href="index.html">Match <span><i class="fa fa-heart" aria-hidden="true"></i>Made in heaven.</span></a></h1>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- //inner banner -->	
+	
+<!-- breadcrumbs -->
+	<div class="w3layouts-breadcrumbs text-center">
+		<div class="container">
+			<span class="agile-breadcrumbs"><a href="index.html">Home</a> > <span>Search</span></span>
+		</div>
+	</div>
+	<!-- //breadcrumbs -->
+
+
+	<!-- Search form -->
+	<div class="w3ls-list">
+		<div class="container">
+		<h2>Admin Dashboard</h2>
+	
+		<!--Horizontal Tab-->
+			<div id="parentHorizontalTab">
+				<ul class="resp-tabs-list hor_1">
+					<li>Customer Requests</li>
+					<li>Service Requests</li>
+					<li>User List</li>
+					<li>Manage Ads</li>
+					<li>Upcoming Events</li>
+				</ul>
+				<div class="resp-tabs-container hor_1">
+
+				<div class="card-body">
+          <div class="table-responsive">
+            <div
+              id="add-row_wrapper"
+							class="dataTables_wrapper container-fluid dt-bootstrap4">
+							
+						<!----	
+              <div class="row">
+                <div class="col-sm-12 col-md-6">
+                  <div class="dataTables_length" id="add-row_length">
+                    <label
+                      >Show
+                      <select
+                        name="add-row_length"
+                        aria-controls="add-row"
+                        class="form-control form-control-sm"
+                        ><option value="10">10</option
+                        ><option value="25">25</option
+                        ><option value="50">50</option
+                        ><option value="100">100</option></select
+                      >
+                      entries</label
+                    >
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <div id="add-row_filter" class="dataTables_filter">
+                    <label
+                      >Search:<input
+                        type="search"
+                        class="form-control form-control-sm"
+                        placeholder=""
+                        aria-controls="add-row"
+                    /></label>
+                  </div>
+                </div>
+							</div>
+						-->
+              <div class="row">
+                <div class="col-sm-12">
+                  <table
+                    id="add-row"
+                    class="display table table-striped table-hover dataTable"
+                    role="grid"
+                    aria-describedby="add-row_info"
+                  >
+                    <thead>
+                      <tr role="row">
+                        <th
+                          class="sorting_asc"
+                          tabindex="0"
+                          aria-controls="add-row"
+                          rowspan="1"
+                          colspan="1"
+                          aria-sort="ascending"
+                          aria-label="Name: activate to sort column descending"
+                          style="width: 366px;"
+                        >
+                          Event Name
+                        </th>
+                        <th
+                          class="sorting"
+                          tabindex="0"
+                          aria-controls="add-row"
+                          rowspan="1"
+                          colspan="1"
+                          aria-label="Position: activate to sort column ascending"
+                          style="width: 226px;"
+                        >
+                          Category
+                        </th>
+                        <th
+                          class="sorting"
+                          tabindex="0"
+                          aria-controls="add-row"
+                          rowspan="1"
+                          colspan="1"
+                          aria-label="Office: activate to sort column ascending"
+                          style="width: 295px;"
+                        >
+                          Date
+                        </th>
+                        <th
+                        class="sorting"
+                        tabindex="0"
+                        aria-controls="add-row"
+                        rowspan="1"
+                        colspan="1"
+                        aria-label="Office: activate to sort column ascending"
+                        style="width: 295px;"
+                      >
+                        Venue
+                      </th>
+                        <th
+                          style="width: 127px;"
+                          class="sorting"
+                          tabindex="0"
+                          aria-controls="add-row"
+                          rowspan="1"
+                          colspan="1"
+                          aria-label="Action: activate to sort column ascending"
+                        >
+                          Action
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr role="row" class="odd">
+                        <td class="sorting_1"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                          <div class="form-button-action">
+                            <button
+                              type="button"
+                              data-toggle="tooltip"
+                              title=""
+                              class="btn btn-link btn-primary btn-lg"
+                            
+                              data-original-title="Edit Task"
+                            >
+                              <i class="fa fa-edit"></i>
+                            </button>
+                            <button
+                              type="button"
+                              data-toggle="tooltip"
+                              title=""
+                              class="btn btn-link btn-danger"
+                              data-original-title="Remove"  
+                            >
+                              <i class="fa fa-times"></i>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+				</div>
+					<!--Tab 2-->
+					<div>
+						<div class="w3_regular_search">
+							<form action="#" method="post">
+								<label>Name</label>
+									<input type="text">
+							</form>
+						</div>
+					</div>
+					<!--End Tab 2-->
+
+					<!-- Tab 3-->
+				              <div class="row">
+                <div class="col-sm-12">
+                  <table
+                    id="add-row"
+                    class="display table table-striped table-hover dataTable"
+                    role="grid"
+                    aria-describedby="add-row_info"
+                  >
+                    <thead>
+                      <tr role="row">
+                        <th
+                          class="sorting_asc"
+                          tabindex="0"
+                          aria-controls="add-row"
+                          rowspan="1"
+                          colspan="1"
+                          aria-sort="ascending"
+                          aria-label="Name: activate to sort column descending"
+                          style="width: 366px;"
+                        >
+                          Event Name
+                        </th>
+                        <th
+                          class="sorting"
+                          tabindex="0"
+                          aria-controls="add-row"
+                          rowspan="1"
+                          colspan="1"
+                          aria-label="Position: activate to sort column ascending"
+                          style="width: 226px;"
+                        >
+                          Category
+                        </th>
+                        <th
+                          class="sorting"
+                          tabindex="0"
+                          aria-controls="add-row"
+                          rowspan="1"
+                          colspan="1"
+                          aria-label="Office: activate to sort column ascending"
+                          style="width: 295px;"
+                        >
+                          Date
+                        </th>
+                        <th
+                        class="sorting"
+                        tabindex="0"
+                        aria-controls="add-row"
+                        rowspan="1"
+                        colspan="1"
+                        aria-label="Office: activate to sort column ascending"
+                        style="width: 295px;"
+                      >
+                        Venue
+                      </th>
+                        <th
+                          style="width: 127px;"
+                          class="sorting"
+                          tabindex="0"
+                          aria-controls="add-row"
+                          rowspan="1"
+                          colspan="1"
+                          aria-label="Action: activate to sort column ascending"
+                        >
+                          Action
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr role="row" class="odd">
+                        <td class="sorting_1"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                          <div class="form-button-action">
+                            <button
+                              type="button"
+                              data-toggle="tooltip"
+                              title=""
+                              class="btn btn-link btn-primary btn-lg"
+                            
+                              data-original-title="Edit Task"
+                            >
+                              <i class="fa fa-edit"></i>
+                            </button>
+                            <button
+                              type="button"
+                              data-toggle="tooltip"
+                              title=""
+                              class="btn btn-link btn-danger"
+                              data-original-title="Remove"  
+                            >
+                              <i class="fa fa-times"></i>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+				</div>
+						<!--End Tab 3-->
+
+						<!-- Tab 4-->
+					<div>
+							<div class="w3_regular_search">
+								<form action="#" method="post">
+									<label>Address</label>
+										<input type="text">
+								</form>
+							</div>
+					</div>
+						<!--End Tab 4-->
+
+						<!-- Tab 5-->
+					<div>
+							<div class="w3_regular_search">
+								<form action="#" method="post">
+									<label>Telephone</label>
+										<input type="text">
+								</form>
+							</div>
+					</div>
+						<!--End Tab 5-->
+			</div>
+			</div>
+
+
+
+                            <button
+                              type="button"
+                              data-toggle="modal"
+                              data-target = "#customer_profile"
+                              title=""
+                              class="btn btn-dark btn-sm"
+                            
+                              data-original-title="Customer's Profile"
+                            >
+                             <i class="fas fa-user"></i>	View Profile
+                            </button>
+                            
+                            
+                            
+								<!-- Modal -->
+				<div id="customer_profile" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+				  <div class="modal-dialog">
+					<!-- Modal content-->
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>		
+						<h4 class="modal-title">Login to Continue</h4>
+					  </div>
+					  <div class="modal-body">
+						<div class="login-w3ls">
+						
+							<form id="signin" action="SetLoginDetails" method="post">
+
+		
+                                <input type="text" name="email" placeholder="Email" required="">
+                                </br></br>
+
+                                <input type="password" name="password" placeholder="Password" required="">	
+
+                  
+                                
+								<div class="w3ls-loginr"> 
+									<input type="checkbox" id="brand" name="checkbox" value="">
+									<span> Remember me ?</span> 
+									<a href="#">Forgot password ?</a>
+								</div>
+								<div class="clearfix"> </div>
+								<input type="submit" name="submit" value="Login">
+								<div class="clearfix"> </div>
+								<div class="social-icons">
+									<ul>  
+										<li><a href="#"><span class="icons"><i class="fa fa-facebook" aria-hidden="true"></i></span><span class="text">Facebook</span></a></li> 
+										<li class="twt"><a href="#"><span class="icons"><i class="fa fa-twitter" aria-hidden="true"></i></span><span class="text">Twitter</span></a></li>  
+									</ul> 
+									<div class="clearfix"> </div>
+								</div>	
+								
+								
+							</form>
+							
+							
+							
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<!-- //Modal -->
+                            
+	<div class="clearfix"></div>
+	</div>
+	</div>
+	<script src="js/easyResponsiveTabs.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+
+			$('#parentHorizontalTab').easyResponsiveTabs({
+				type: 'default', //Types: default, vertical, accordion
+				width: 'auto', //auto or any width like 600px
+				fit: true, // 100% fit in a container
+				closed: 'accordion', // Start closed if in accordion view
+				tabidentify: 'hor_1', // The tab groups identifier
+				activate: function (event) { // Callback function if tab is switched
+					var $tab = $(this);
+					var $info = $('#nested-tabInfo');
+					var $name = $('span', $info);
+		
+					$name.text($tab.text());
+		
+					$info.show();
+				}
+			});
+	 
+		});
+	</script>
+	<!-- //Search form -->
+	
+	<!-- browse profiles -->
+	<div class="w3layouts-browse text-center">
+		<div class="container">
+			<h3>Browse Matchmaking Profiles by</h3>
+			<div class="col-md-4 w3-browse-grid">
+				<h4>By Country</h4>
+				<ul>
+					<li><a href="nri_list.html">Country 1</a></li>
+					<li><a href="nri_list.html">Country 2</a></li>
+					<li><a href="nri_list.html">Country 3</a></li>
+					<li><a href="nri_list.html">Country 4</a></li>
+					<li><a href="nri_list.html">Country 5</a></li>
+					<li><a href="nri_list.html">Country 6</a></li>
+					<li><a href="nri_list.html">Country 7</a></li>
+					<li><a href="nri_list.html">Country 8</a></li>
+					<li><a href="nri_list.html">Country 9</a></li>
+					<li><a href="nri_list.html">Country 10</a></li>
+					<li><a href="nri_list.html">Country 11</a></li>
+					<li class="more"><a href="nri_list.html">more..</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 w3-browse-grid">
+				<h4>By Religion</h4>
+				<ul>
+					<li><a href="r_list.html">Religion 1</a></li>
+					<li><a href="r_list.html">Religion 2</a></li>
+					<li><a href="r_list.html">Religion 3</a></li>
+					<li><a href="r_list.html">Religion 4</a></li>
+					<li><a href="r_list.html">Religion 5</a></li>
+					<li><a href="r_list.html">Religion 6</a></li>
+					<li><a href="r_list.html">Religion 7</a></li>
+					<li><a href="r_list.html">Religion 8</a></li>
+					<li><a href="r_list.html">Religion 9</a></li>
+					<li><a href="r_list.html">Religion 10</a></li>
+					<li><a href="r_list.html">Religion 11</a></li>
+					<li class="more"><a href="r_list.html">more..</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 w3-browse-grid">
+				<h4>By Community</h4>
+				<ul>
+					<li><a href="r_list.html">Community 1</a></li>
+					<li><a href="r_list.html">Community 2</a></li>
+					<li><a href="r_list.html">Community 3</a></li>
+					<li><a href="r_list.html">Community 4</a></li>
+					<li><a href="r_list.html">Community 5</a></li>
+					<li><a href="r_list.html">Community 6</a></li>
+					<li><a href="r_list.html">Community 7</a></li>
+					<li><a href="r_list.html">Community 8</a></li>
+					<li><a href="r_list.html">Community 9</a></li>
+					<li class="more"><a href="r_list.html">more..</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- //browse profiles -->
+
+	<!-- Get started -->
+	<div class="w3layous-story text-center">
+		<div class="container">
+			<h4>Your story is waiting to happen!  <a href="index.html">Get started</a></h4>
+		</div>
+	</div>
+	<!-- //Get started -->
+	
+<!-- footer -->
+<footer>
+	<div class="footer">
+		<div class="container">
+			<div class="footer-info w3-agileits-info">
+				<div class="col-md-4 address-left agileinfo">
+					<div class="footer-logo header-logo">
+						<h6>Get in Touch.</h6>
+					</div>
+					<ul>
+						<li><i class="fa fa-map-marker"></i> 123 San Sebastian, New York City USA.</li>
+						<li><i class="fa fa-mobile"></i> 333 222 3333 </li>
+						<li><i class="fa fa-phone"></i> +222 11 4444 </li>
+						<li><i class="fa fa-envelope-o"></i> <a href="mailto:example@mail.com"> mail@example.com</a></li>
+					</ul> 
+				</div>
+				<div class="col-md-8 address-right">
+					<div class="col-md-4 footer-grids">
+						<h3>Company</h3>
+						<ul>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="feedback.html">Feedback</a></li>  
+							<li><a href="help.html">Help</a></li>  
+							<li><a href="tips.html">Safety Tips</a></li>
+							<li><a href="typo.html">Typography</a></li>
+							<li><a href="icons.html">Icons Page</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 footer-grids">
+						<h3>Quick links</h3>
+						<ul>
+							<li><a href="terms.html">Terms of use</a></li>
+							<li><a href="privacy_policy.html">Privacy Policy</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="faq.html">FAQ</a></li>
+							<li><a href="sitemap.html">Sitemap</a></li>
+						</ul> 
+					</div>
+					<div class="col-md-4 footer-grids">
+						<h3>Follow Us on</h3>
+						<section class="social">
+                        <ul>
+							<li><a class="icon fb" href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="icon tw" href="#"><i class="fa fa-twitter"></i></a></li>	
+							<li><a class="icon gp" href="#"><i class="fa fa-google-plus"></i></a></li>
+						</ul>
+						</section>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>	
+	<div class="copy-right"> 
+		<div class="container">
+			<p>© 2017 Match. All rights reserved | Design by <a href="http://w3layouts.com"> W3layouts.</a></p>
+		</div>
+	</div> 
+</footer>
+<!-- //footer -->	
+<!-- menu js aim -->
+	<script src="js/jquery.menu-aim.js"> </script>
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
+	<!-- //menu js aim -->
+	<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+	  			containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+	 		};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+							
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- for smooth scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+	</script>
+	<!-- //for smooth scrolling -->
+</body>
+<!-- //body -->
+</html>
+<!-- //html -->
